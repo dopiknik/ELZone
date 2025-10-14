@@ -173,7 +173,7 @@ function updateCalc(){
   }
   const dStops = Math.abs(hi - si);
   const ratio = Math.pow(2, dStops);
-  deltaEl.textContent = dStops + (dStops===1 ? " стоп" : " стопов");
+  deltaEl.textContent = dStops + (dStops===1 ? " stop" : " stops");
   contrastEl.textContent = ratio + ":1";
   drawGraph(dStops);
 }
